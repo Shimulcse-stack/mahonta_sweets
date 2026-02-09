@@ -24,7 +24,7 @@ const CartModal: React.FC<CartModalProps> = ({ isOpen, onClose, items, whatsapp_
   const [orderId, setOrderId] = useState('');
 
   const subtotal = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
-  const deliveryCharge = formData.area === 'inside' ? 60 : 120;
+  const deliveryCharge = formData.area === 'inside' ? 30 : 80;
   const total = subtotal + deliveryCharge;
 
   const handleClose = () => {
