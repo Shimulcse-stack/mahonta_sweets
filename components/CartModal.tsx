@@ -53,7 +53,7 @@ const CartModal: React.FC<CartModalProps> = ({ isOpen, onClose, items, whatsapp_
       `নাম: ${formData.name}\n` +
       `মোবাইল: ${formData.phone}\n` +
       `ঠিকানা: ${formData.address}\n` +
-      `এলাকা: ${formData.area === 'inside' ? 'ঢাকার ভেতরে' : 'ঢাকার বাইরে'}\n\n` +
+      `এলাকা: ${formData.area === 'inside' ? 'দিনাজপুরের ভেতরে' : 'দিনাজপুরের বাইরে'}\n\n` +
       `*অর্ডার লিস্ট:*\n${itemsList}\n\n` +
       `*পেমেন্ট ডিটেইলস:*\n` +
       `সাব-টোটাল: ৳${subtotal}\n` +
