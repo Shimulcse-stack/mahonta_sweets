@@ -46,7 +46,7 @@ const AdminPanel: React.FC<AdminPanelProps> = ({
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password === 'admin123') {
+    if (password === 'mahanto123') {
       setIsAuthenticated(true);
     } else {
       alert('ভুল পাসওয়ার্ড!');
