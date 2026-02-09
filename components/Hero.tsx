@@ -56,15 +56,17 @@ const Hero: React.FC<HeroProps> = ({ settings }) => {
             <div className="absolute inset-0 bg-[#F9A03F] honey-circle-mask opacity-80 scale-105"></div>
             <div className="absolute inset-0 bg-white honey-circle-mask scale-[0.98] z-10 overflow-hidden shadow-[0_50px_100px_rgba(249,160,63,0.15)]">
               <img 
-                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXJ5kNW2-pjY1b6vI6C0gVw510f1eyz0zp5RtpfgfqFbQ2jYMSe2NJYJucoFIXhm3G1f92Pao8UkOmFDAW9bLCTZChPek7DD2Fd9WFK8-U97iVsmMO63_a3saVh8C5QvvDb7IIDhamXQ-3GSuUcw7KGRCmDxD__K7awKtKUVvK86dGwbRyaviKr6LvbQ/s320/Misty_Bangladeshi%20Sweets.jpg" 
-                alt="Honey Sweets" 
+               src="https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=500&auto=format&fit=crop"
+                alt="Small Detail"
                 className="w-full h-full object-cover"
               />
             </div>
             
             {/* Overlay Details */}
             <div className="absolute -bottom-10 -right-5 w-48 h-48 md:w-64 md:h-64 z-20 rounded-[3rem] overflow-hidden border-8 border-white shadow-2xl rotate-6">
-              <img src="https://images.unsplash.com/photo-1625220194771-7ebdea0b70b9?q=80&w=500&auto=format&fit=crop" alt="Small Detail" className="w-full h-full object-cover" />
+              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXJ5kNW2-pjY1b6vI6C0gVw510f1eyz0zp5RtpfgfqFbQ2jYMSe2NJYJucoFIXhm3G1f92Pao8UkOmFDAW9bLCTZChPek7DD2Fd9WFK8-U97iVsmMO63_a3saVh8C5QvvDb7IIDhamXQ-3GSuUcw7KGRCmDxD__K7awKtKUVvK86dGwbRyaviKr6LvbQ/s320/Misty_Bangladeshi%20Sweets.jpg" 
+                alt="Honey Sweets" 
+                className="w-full h-full object-cover" />
             </div>
 
             <div className="absolute -top-10 -right-10 w-40 h-40 dot-pattern opacity-40"></div>
