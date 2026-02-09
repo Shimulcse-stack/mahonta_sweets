@@ -157,8 +157,8 @@ const CartModal: React.FC<CartModalProps> = ({ isOpen, onClose, items, whatsapp_
                   <div>
                     <label className="block text-xs font-black text-gray-400 uppercase mb-3 ml-1">ডেলিভারি এরিয়া</label>
                     <div className="flex gap-4">
-                      <button onClick={() => setFormData({...formData, area: 'inside'})} className={`flex-1 py-4 rounded-2xl font-bold border-2 transition-all ${formData.area === 'inside' ? 'border-[#F9A03F] bg-[#FEF3E2] text-[#F9A03F]' : 'border-gray-50 bg-gray-50 text-gray-400'}`}>ঢাকার ভেতরে</button>
-                      <button onClick={() => setFormData({...formData, area: 'outside'})} className={`flex-1 py-4 rounded-2xl font-bold border-2 transition-all ${formData.area === 'outside' ? 'border-[#F9A03F] bg-[#FEF3E2] text-[#F9A03F]' : 'border-gray-50 bg-gray-50 text-gray-400'}`}>ঢাকার বাইরে</button>
+                      <button onClick={() => setFormData({...formData, area: 'inside'})} className={`flex-1 py-4 rounded-2xl font-bold border-2 transition-all ${formData.area === 'inside' ? 'border-[#F9A03F] bg-[#FEF3E2] text-[#F9A03F]' : 'border-gray-50 bg-gray-50 text-gray-400'}`}>দিনাজপুরের ভেতর</button>
+                      <button onClick={() => setFormData({...formData, area: 'outside'})} className={`flex-1 py-4 rounded-2xl font-bold border-2 transition-all ${formData.area === 'outside' ? 'border-[#F9A03F] bg-[#FEF3E2] text-[#F9A03F]' : 'border-gray-50 bg-gray-50 text-gray-400'}`}>দিনাজপুরের বাইরে</button>
                     </div>
                   </div>
                   <div>
