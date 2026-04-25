@@ -121,7 +121,7 @@ const Footer: React.FC<FooterProps> = ({ settings, onOpenAdmin }) => {
 
         <div className="border-t border-gray-100 pt-12 flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-gray-400 text-[13px] font-bold">
-            &copy; ২০২৫ {settings.shop_name}। সর্বস্বত্ব সংরক্ষিত।
+            &copy; ২০২৫ {settings.shop_name}। সর্বস্বত্ব সংরক্ষিত। Developed by ShimulCSE_Stack
           </p>
           <div className="flex gap-10">
             <span 
